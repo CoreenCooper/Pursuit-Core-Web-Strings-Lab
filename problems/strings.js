@@ -3,7 +3,8 @@
  * @param {string} - str
  * @returns {string} - first char
  */
-function firstChar() {}
+
+const firstChar = str => str === "" ? "" : str[0];
 
 /**
  * Returns the length of a string
@@ -11,7 +12,9 @@ function firstChar() {}
  * @returns {number} - length of string
  */
 
-function stringLength() {}
+const stringLength = () => {
+
+}
 
 /**
  * Returns the last character of any string
@@ -19,7 +22,9 @@ function stringLength() {}
  * @returns {string} - last letter
  */
 
-function lastLetter() {}
+const lastLetter = () => {
+
+}
 
 /**
  * Takes a single string variable and returns a copy of the string with the
@@ -28,10 +33,12 @@ function lastLetter() {}
  * @returns {string} - 'jimmY'
  */
 
-function capitalizeLastLetter() {}
+const capitalizeLastLetter = () => {
+
+}
 
 /**
- *  Create a drEvil function that will take a single number variable, and log the '<variableAmount> dollars',
+ *  Create a drEvil const that will take a single number variable, and log the '<variableAmount> dollars',
 and should add '(pinky)' at the end of the amount if it's 1 million or more. For example:
 
 ```js
@@ -43,7 +50,9 @@ let amount = 1000000
 * @param {number}
 * @returns {string}
  */
-function drEvil() {}
+const drEvil = () => {
+
+}
 
 /**
  * 
@@ -68,7 +77,9 @@ verbing('go')
  
  */
 
-function verbing() {}
+const verbing = () => {
+
+}
 
 /**
  * Takes a single sentence and returns a copy of the string without the
@@ -77,7 +88,9 @@ function verbing() {}
  * @returns {string}
  */
 
-function removeLastWord() {}
+const removeLastWord = () => {
+
+}
 
 /**
  * Takes a string and returns a new string that has only the even
@@ -87,14 +100,18 @@ function removeLastWord() {}
  * @returns {string}
  */
 
-function everyOtherLetter() {}
+const everyOtherLetter = () => {
+
+}
 
 /**
  * Takes in a string and returns a new string that has all the vowels removed.
  * @param {string}
  * @returns {string}
  */
-function disemvowel() {}
+const disemvowel = () => {
+
+}
 
 /**
  * Takes a string sentence and returns a new sentence.
@@ -103,7 +120,9 @@ function disemvowel() {}
  * @returns {string}
  */
 
- function disemvowelLongWords(){}
+ const disemvowelLongWords = () => {
+
+ }
 
 /**
  * Takes in a string and returns the middle char.
@@ -111,7 +130,9 @@ function disemvowel() {}
  * @param {string}
  * @returns {string}
  */
-function middleCharacter() {}
+const middleCharacter = () => {
+
+}
 
 /**
  * Takes in a string and reverses it.
@@ -120,7 +141,9 @@ function middleCharacter() {}
  * @returns {string}
  */
 
-function reverseString() {}
+const reverseString = () => {
+
+}
 
 /**
  * Takes in a sentence string and reverses each word but not the
@@ -129,7 +152,9 @@ function reverseString() {}
  * @returns {string}
  */
 
-function reverseSentenceWords() {}
+const reverseSentenceWords = () => {
+
+}
 
 module.exports = {
   firstChar,
