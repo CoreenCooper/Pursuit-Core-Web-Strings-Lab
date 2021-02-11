@@ -70,8 +70,14 @@ verbing('go')
  
  */
 
-const verbing = () => {
-
+const verbing = str => {
+  if (str.length < 3) {
+    return str
+  } else if (str.length >= 3 && str.slice(-3) === "ing") {
+    return str + "ly"
+  } else {
+    return str + "ing"
+  }
 }
 
 /**
