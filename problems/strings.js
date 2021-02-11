@@ -45,9 +45,7 @@ let amount = 1000000
 * @param {number}
 * @returns {string}
  */
-const drEvil = () => {
-
-}
+const drEvil = num => num >= 1000000 ? `${num} dollars (pinky)` : `${num} dollars`;
 
 /**
  * 
