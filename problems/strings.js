@@ -87,9 +87,11 @@ const verbing = str => {
  * @returns {string}
  */
 
-const removeLastWord = () => {
-
-}
+const removeLastWord = str => {
+  const strArr = str.split(" ");
+  strArr.pop()
+  return strArr.join(" ")
+  }
 
 /**
  * Takes a string and returns a new string that has only the even
