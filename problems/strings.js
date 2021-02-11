@@ -12,9 +12,7 @@ const firstChar = str => str === "" ? "" : str[0];
  * @returns {number} - length of string
  */
 
-const stringLength = () => {
-
-}
+const stringLength = str =>  str.length;
 
 /**
  * Returns the last character of any string
