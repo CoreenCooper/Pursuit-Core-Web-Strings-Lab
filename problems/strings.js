@@ -29,9 +29,8 @@ const lastLetter = str => str === "" ? "" : str[str.length - 1];
  * @returns {string} - 'jimmY'
  */
 
-const capitalizeLastLetter = () => {
+const capitalizeLastLetter = str => str === "" ? "" : str.slice(0, -1) + str[str.length - 1].toUpperCase()
 
-}
 
 /**
  *  Create a drEvil const that will take a single number variable, and log the '<variableAmount> dollars',
