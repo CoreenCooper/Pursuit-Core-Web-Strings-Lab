@@ -20,9 +20,7 @@ const stringLength = str =>  str.length;
  * @returns {string} - last letter
  */
 
-const lastLetter = () => {
-
-}
+const lastLetter = str => str === "" ? "" : str[str.length - 1];
 
 /**
  * Takes a single string variable and returns a copy of the string with the
